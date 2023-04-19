@@ -21,4 +21,8 @@ public class Demo1 {
         String s = EntityUtils.toString(response.getEntity(),"UTF-8");
         System.out.println(s);
     }
+	@Test
+    public void test1(){
+        System.out.println("测试git代码提交");
+    }
 }
