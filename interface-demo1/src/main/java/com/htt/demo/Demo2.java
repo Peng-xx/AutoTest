@@ -10,8 +10,12 @@ import org.testng.annotations.Test;
 import java.io.IOException;
 
 public class Demo2 { 
-	@Test
+   @Test
     public void test2(){
         System.out.println("测试新增文件，git代码提交");
+    }
+   @Test
+    public void test3(){
+        System.out.println("测试从远程仓库拉文件");
     }
 }
