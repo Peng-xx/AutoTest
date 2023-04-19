@@ -1,0 +1,38 @@
+[{
+  "description": "模拟返回cookie的get请求",
+  "request": {
+    "uri": "/getCookie",
+    "method": "get"
+  },
+  "response": {
+    "cookies": {
+      "login": "true"
+    },
+    "text": "恭喜获取cookie"
+  }
+},
+  {
+    "description": "模拟有参post请求",
+    "request": {
+      "uri": "/postparam",
+      "method": "post",
+      "cookies": {
+        "login": "true"
+      },
+      "headers": {
+        "Content-Type": "application/html"
+      },
+      "json": {
+        "name": "rose",
+        "age": "26"
+      }
+    },
+    "response": {
+      "status": 200,
+      "json": {
+        "message": "success",
+        "text": "post请求成功"
+      }
+    }
+  }
+]

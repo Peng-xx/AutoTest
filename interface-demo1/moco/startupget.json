@@ -1,0 +1,45 @@
+[
+  {
+    "description": "模拟返回cookie的get请求",
+    "request": {
+      "uri": "/getCookie",
+      "method": "get"
+    },
+    "response": {
+      "cookies": {
+        "login": "true"
+      },
+      "text": "恭喜获取cookie"
+    }
+  },
+
+  {
+  "description": "模拟带cookie的get请求",
+  "request": {
+    "uri": "/get/cookie",
+    "method": "get",
+    "cookies": {
+      "login": "true"
+    }
+  },
+  "response": {
+    "text": "get请求"
+  }
+},
+  {
+    "description": "模拟有参get请求",
+    "request": {
+      "uri": "/getparam",
+      "method": "get",
+      "queries": {
+        "name": "rose",
+        "age": "26"
+      },
+      "cookies": {
+        "login": "true"
+      }    },
+    "response": {
+      "text": "有参的get请求"
+    }
+  }
+]
