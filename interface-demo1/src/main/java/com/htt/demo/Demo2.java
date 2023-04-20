@@ -23,4 +23,9 @@ public class Demo2 {
     public void test4(){
         System.out.println("使用idea提交代码");
     }
+
+    @Test
+    public void test5(){
+        System.out.println("branch1分支提交的代码");
+    }
 }
