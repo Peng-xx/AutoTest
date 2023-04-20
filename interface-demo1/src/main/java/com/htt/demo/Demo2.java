@@ -18,4 +18,9 @@ public class Demo2 {
     public void test3(){
         System.out.println("测试从远程仓库拉文件");
     }
+
+    @Test
+    public void test4(){
+        System.out.println("使用idea提交代码");
+    }
 }
